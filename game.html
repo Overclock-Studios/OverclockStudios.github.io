@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Official site for Overclock Studios - Download our latest games and join the revolution." />
+  <title>Overclock Studios</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', sans-serif;
+      background-color: #0f0f0f;
+      color: #f5f5f5;
+    }
+    header {
+      background: #1a1a1a;
+      padding: 20px 50px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      border-bottom: 2px solid #00ffcc;
+    }
+    header h1 {
+      margin: 0;
+      font-size: 2rem;
+      color: #00ffcc;
+    }
+    nav a {
+      color: #fff;
+      margin: 0 15px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    nav a:hover {
+      color: #00ffcc;
+    }
+    .hero {
+      background: url('https://images.unsplash.com/photo-1605902711622-cfb43c4437f1') center/cover no-repeat;
+      height: 80vh;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+    }
+    .hero h2 {
+      font-size: 3rem;
+      color: #fff;
+    }
+    .hero p {
+      font-size: 1.2rem;
+      color: #ddd;
+      max-width: 600px;
+    }
+    .btn {
+      padding: 15px 30px;
+      margin-top: 20px;
+      background-color: #00ffcc;
+      color: #000;
+      font-size: 1.2rem;
+      border: none;
+      cursor: pointer;
+      transition: 0.3s;
+    }
+    .btn:hover {
+      background-color: #00ddb3;
+    }
+    .games {
+      padding: 60px 50px;
+      background-color: #121212;
+    }
+    .games h3 {
+      text-align: center;
+      font-size: 2rem;
+      margin-bottom: 40px;
+    }
+    .game-list {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 30px;
+    }
+    .game {
+      background-color: #1f1f1f;
+      padding: 20px;
+      border-radius: 10px;
+      width: 300px;
+      box-shadow: 0 0 10px #00ffcc55;
+    }
+    .game img {
+      width: 100%;
+      border-radius: 5px;
+    }
+    .game h4 {
+      margin: 15px 0 10px;
+      color: #00ffcc;
+    }
+    .game p {
+      color: #ccc;
+      font-size: 0.95rem;
+    }
+    .footer {
+      background-color: #1a1a1a;
+      text-align: center;
+      padding: 30px;
+      font-size: 0.9rem;
+      color: #888;
+    }
+    .download-btn {
+      display: inline-block;
+      margin-top: 10px;
+      background: #00ffcc;
+      color: #000;
+      padding: 10px 15px;
+      border-radius: 5px;
+      text-decoration: none;
+    }
+    .download-btn:hover {
+      background-color: #00ddb3;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Overclock Studios</h1>
+    <nav>
+      <a href="#">Home</a>
+      <a href="#games">Games</a>
+      <a href="#contact">Contact</a>
+      <a href="#about">About</a>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <h2>Power Up. Game On.</h2>
+    <p>The home of high-octane indie gaming. Built by dreamers, for gamers.</p>
+    <a href="downloads.html" class="btn">Explore Games</a>
+  </section>
+
+  <section class="games" id="games">
+    <h3>Our Games</h3>
+    <div class="game-list">
+      <div class="game">
+        <img src="https://via.placeholder.com/300x200.png?text=XT+Assault" alt="XT Assault">
+        <h4>XT Assault</h4>
+        <p>Fight through cyber warfare in a future ruled by AI. FPS with a twist.</p>
+        <a href="downloads/xt-assault.zip" class="download-btn">Download</a>
+      </div>
+      <div class="game">
+        <img src="https://via.placeholder.com/300x200.png?text=Drone+Ops+9999" alt="Drone Ops 9999">
+        <h4>Drone Ops 9999</h4>
+        <p>Master stealth, precision, and strategy in this tactical drone simulation game.</p>
+        <a href="downloads/drone-ops.zip" class="download-btn">Download</a>
+      </div>
+      <div class="game">
+        <img src="https://via.placeholder.com/300x200.png?text=XT+Race+Reboot" alt="XT Race Reboot">
+        <h4>XT Race Reboot</h4>
+        <p>Speed like never before in the ultimate neon racing universe.</p>
+        <a href="downloads/xt-race.zip" class="download-btn">Download</a>
+      </div>
+    </div>
+  </section>
+
+  <section class="footer" id="contact">
+    <p>&copy; 2025 Overclock Studios. All rights reserved.</p>
+    <p>Need help? <a href="mailto:support@overclockstudios.com">Contact Support</a></p>
+  </section>
+</body>
+</html>
